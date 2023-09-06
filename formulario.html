@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imagenes/AVIONICONO.PNG">
+    
+    <title>Formulario</title>
+    <script>
+        function mostrarAlerta() {
+            alert("Información guardada");
+        }
+    </script>
+</head>
+
+<body bgcolor="#05B7FA">
+    <center>
+        <img src="imagenes/avion.jpg" width="30px" height="30px">
+        <img src="imagenes/avion1.jpg" width="30px" height="30px">
+        <img src="imagenes/avion2.jpg" width="30px" height="30px">
+        <font face="Tahoma" size="25">Aviones </font>
+        <img src="imagenes/avion3.jpg" width="30px" height="30px">
+        <img src="imagenes/avion4.jpg" width="30px" height="30px">
+        <img src="imagenes/avion5.jpg" width="30px" height="30px">
+        <hr>
+    </center>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            /* Centra horizontalmente */
+        }
+
+        ul.horizontal-list {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            /* Centra verticalmente */
+        }
+
+        ul.horizontal-list li {
+            margin-right: 10px;
+            /* Espacio entre elementos */
+        }
+    </style>
+
+    <div class="container" style="background-color: aqua; border-radius: 10px;">
+        <ul class="horizontal-list">
+            <li><a href="inicio.html">inicio</a></li>
+            <li><a href="Pagina1.html">pagina 1</a></li>
+            <li><a href="tabla1.html">pagina 2</a></li>
+            <li><a href="tabla2.html">pagina 3</a></li>
+            <li><a href="tabla3.html">pagina 4</a></li>
+            <li><a href="tabla4.html">pagina 5</a></li>
+            <li><a href="tabla5.html">pagina 6</a></li>
+            <li><a href="pagina7.html">pagina 7</a></li>
+            <li><a href="pagina8.html">pagina 8</a></li>
+            <li><a href="pagina9.html">pagina 9</a></li>
+            <li><a href="pagina10.html">pagina 10</a></li>
+            <li><a href="pagina11.html">pagina 11</a></li>
+            <li><a href="Pagina12.html">pagina 12</a></li>
+            <li><a href="pagina13.html">pagina 13</a></li>
+            <li><a href="formulario.html">pagina 14</a></li>
+            <li><a href="Datos.html">pagina 15</a></li>
+        </ul>
+    </div>
+
+    <hr>
+    <div align="center" style="background-color: aquamarine; margin: 0% 30%; padding-top: 5px; padding-bottom: 5px; border-radius: 13px;">
+        <form method="get" onsubmit="mostrarAlerta()">
+            <p>Nombre: <input type="text" name="nombre" size="40" placeholder="Nombre Completo" required></p>
+            <p> Tipo de Documento: <select name="menu"> 
+                 
+                <option value="1">TI</option>
+                <option value="2">CC</option>
+                <option value="3">CE</option>
+              </select></p>
+            <p>Año de nacimiento: <input type="date" name="fecha" required>
+            </p>
+            <p>Sexo:
+                <input type="radio" name="hm" value="h" > Hombre
+                <input type="radio" name="hm" value="m"> Mujer
+            </p>
+            <p>Usuario: <input type="text" name="nombre" size="10" required></p>
+                <p>
+                 Contraseña: <input type="password" name="contrasena" required>
+                </p>
+                <p><input type="checkbox" name="casilla" required> Aceptar terminos y condiciones</p>
+                
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </p>
+        </form>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <br>
+    <hr>
+    <center>
+        <p>redes</p>
+        <a href="https://www.facebook.com/"><img src="imagenes/facebook.png" width="50px" height="50px"></a>
+        <a href="https://twitter.com/home"><img src="imagenes/gorjeo.png" width="50px" height="50px"></a>
+        <a href="https://www.instagram.com/"><img src="imagenes/instagram.png" width="50px" height="50px"></a>
+        <hr>
+        <a href="pagina13.html" width="80px" height="60px" bgcolor="#ACFF33"> <img src="imagenes/anterior.png"
+                width="50px" height="50px"></a>
+        <a href="index.html" width="80px" height="60px" bgcolor="#ACFF33"> <img src="imagenes/hogar.png" width="50px"
+                height="50px"></a>
+        <a href="Datos.html" width="80px" height="60px" bgcolor="#ACFF33"> <img src="imagenes/siguiente.png"
+                width="50px" height="50px"></a>
+        <hr>
+
+    </center>
+
+</body>
+
+</html>
